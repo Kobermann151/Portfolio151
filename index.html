@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de Pietro Kober, estudante de engenharia de software."
+    />
+    <title>Pietro Kober | Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">PK</div>
+        <nav class="nav-links" aria-label="Navegação principal">
+          <a href="#about">Sobre</a>
+          <a href="#skills">Habilidades</a>
+          <a href="#projects">Projetos</a>
+          <a href="#contact">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Estudante de Engenharia de Software</p>
+            <h1>Olá, eu sou Pietro Kober.</h1>
+            <p class="intro">
+              Estou estudando programação e engenharia de software, cursando o 2º semestre
+              na La Salle Canoas e participando da mentoria Full Stack 5.0 do Instituto Eldorado.
+            </p>
+            <div class="actions">
+              <a class="button primary" href="#projects">Ver projetos</a>
+              <a class="button secondary" href="#contact">Fale comigo</a>
+            </div>
+            <ul class="mini-stats" aria-label="Resumo do perfil">
+              <li><strong>Python</strong><span>Linguagem principal</span></li>
+              <li><strong>2º sem</strong><span>Engenharia de software</span></li>
+              <li><strong>FS 5.0</strong><span>Mentoria Eldorado</span></li>
+            </ul>
+          </div>
+
+          <div class="profile-panel" aria-label="Cartão de perfil">
+            <div class="avatar">PK</div>
+            <div class="panel-content">
+              <p class="label">Perfil acadêmico</p>
+              <h2>Estudante de engenharia de software</h2>
+              <p>
+                estudando varias linguagens de programação e criando novos projetos,
+                ansioso para começar a trabalhar na área de desenvolvimento de software.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container two-column">
+          <div>
+            <p class="eyebrow">Sobre mim</p>
+            <h2>Estudante apaixonado por tecnologia, lógica e desenvolvimento de software.</h2>
+          </div>
+          <div>
+            <p>
+              Sou estudante de engenharia de software e programação, 
+              possuo conhecimento em python, java, html e css, e estudo para
+              me aprofundar no conhecimento da área de programação.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section muted-section">
+        <div class="container">
+          <p class="eyebrow">Principais habilidades</p>
+          <h2>Áreas em desenvolvimento</h2>
+          <div class="skills-grid">
+            <article class="skill-card">
+              <h3>Python e java</h3>
+              <p>Programação lógica, automação, scripts e resolução de problemas aplicados.</p>
+            </article>
+            <article class="skill-card">
+              <h3>Desenvolvimento web</h3>
+              <p>HTML, CSS e JavaScript para criar interfaces simples e funcionais.</p>
+            </article>
+            <article class="skill-card">
+              <h3>Projetos práticos</h3>
+              <p>Jogos, desafios e experiências interativas para aplicar conhecimentos reais.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <p class="eyebrow">Projeto em destaque</p>
+          <h2>Snake Fortress 2</h2>
+          <div class="project-grid single-project">
+            <article class="project-card featured-project">
+              <span class="project-tag">Python / Minigame</span>
+              <h3>Snake Fortress 2</h3>
+              <p>
+                Jogo de serpente programado em Python, com elementos de classes e inspiração
+                em Team Fortress 2. Desenvolvido no 1º semestre de Engenharia de Software,
+                este projeto destaca minha lógica de programação, criatividade e interesse por
+                desenvolvimento de jogos.
+              </p>
+              <a
+                class="button primary project-button"
+                href="https://github.com/Kobermann151/Snake-Fortress-2"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ver repositório
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-box">
+          <div>
+            <p class="eyebrow">Vamos conversar</p>
+            <h2>Interessado em colaborar em um projeto?</h2>
+          </div>
+          <a class="button primary" href="mailto:kobercosta@proton.me">kobercosta@proton.me</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Pietro Kober</p>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/pietro-kober-costa-69433832b/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com/Kobermann151" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
